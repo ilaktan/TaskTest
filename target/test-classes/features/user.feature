@@ -6,8 +6,13 @@ Feature: User Verification
     When I get the current user information from api
     Then status code should be 200
 
+  Scenario: verify information about logged user
 
- 
+    When I get the current user information from api
+    Then I am creating post
+
+
+
 
 
 
